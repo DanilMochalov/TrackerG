@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #f9f9f9;
+    border-color: aqua;
+    border-radius: 3px;
+    text-align: center;
+    margin: 5px;
+  }
+
+  h2 {
+    font-size: 8px;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #crypto-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 19px;
+    margin-top: 40px;
+  }
+  
+  .crypto-item {
+    border: 1px solid #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+  
+  .crypto-item h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .crypto-item p {
+    margin: 5px 0 0;
+    color: #ffffff;
+  }
